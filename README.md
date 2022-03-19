@@ -18,10 +18,11 @@ Suppose the user wanted to narrow the table down even further to display just th
 
 ![filter 3](https://user-images.githubusercontent.com/95651156/158869059-fb5927a7-eddb-456b-a6c8-61aa93b5e143.png).
 
-Lastly, to clear any filters the user simply deletes the text in any filters they want to clear and then press enter again. For example, suppose the user decides they want to see all the sightings that occuered in San Diego. To do this, they would simply clear the date and state filters and then press enter (NOTE: It's actually not necessary to clear the state in this case since filtering on San Diego makes filtering on California irrelevant). The result is seen below.
+Lastly, the user can remove a filter by deleting the text in the box and pressing enter. For example, suppose the user decides they want to see all the sightings that occuered in San Diego. To do this, they would simply clear the date and state filters and then press enter (NOTE: It's actually not necessary to clear the state in this case since filtering on San Diego makes filtering on California irrelevant). The result is seen below.
 
 ![filter 4](https://user-images.githubusercontent.com/95651156/158870391-311247ce-826b-4423-b752-46f400d6324e.png).
 
 ## Summary
+I think the biggest drawback of the current webpage is that the table represents the sightings data in raw form. The page would look far better if there was code that took the data and formatted it before it is entered into the table. For example, "fresno", "ca", and "us" would show up as "Fresno", "CA", and "USA" instead.
 
-### Top Drawback of Webpage
+One way in which I could further develop the webpage would be to give each observation a separate webpage that goes into further detail about the sighting. I would add links to each observation within the table that access these pages. Additionally, from an aesthetics standpoint, I think the webpage would be improved by adding another image to the left of the paragraph and above the filter boxes. The emptiness that currently defines this part of the page sticks out like a sore thumb, so I would add a picture of a UFO.
